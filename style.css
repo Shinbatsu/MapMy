@@ -115,3 +115,39 @@
     height: auto;
     width: 100%;
 }
+.testimonials {
+    width: 100%;
+    padding-top: 3%;
+    background-color: #f4a261;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonials h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.testimonials h3 span {
+    color: #f4a261;
+    background-color: #fff;
+    padding: 0px 5px;
+}
+
+.testimonials .rolling-cards {
+    padding: 5% 10%;
+    display: flex;
+    gap: 5%;
+}
+
+.testimonials .amazon {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    -webkit-mask: url(logo.svg) no-repeat center;
+    mask: url('https://www.mapmy.com/images/client_logo/amazon-a.svg') no-repeat center
+}
+
+.testimonials img {
+    filter: grayscale(100%) hue-rotate(70deg);
+}
