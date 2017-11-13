@@ -53,3 +53,65 @@
     font-weight: bolder;
     border-radius: 8px;
 }
+
+.hero {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.hero .left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero .left h3 {
+    font-size: 50px;
+    line-height: 4rem;
+}
+
+.hero .left span  {
+    color: #f4a261;
+}
+
+.hero .left .tagline {
+    color: grey;
+    width: 70%;
+    font-size: 18px;
+}
+
+.hero .left .buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero .left .buttons button {
+    padding: 10px 20px;
+}
+
+.hero .left .buttons button.primary {
+    color: #fff;
+    border: 1px solid #f4a261;
+    background: #f4a261;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.hero .left .buttons button.secondary {
+    color: #f4a261;
+    border: 1px solid #f4a261;
+    background: #fff;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.hero .right {
+    flex: 1;
+}
+
+.hero .right img {
+    height: auto;
+    width: 100%;
+}
