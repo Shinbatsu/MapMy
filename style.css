@@ -151,3 +151,54 @@
 .testimonials img {
     filter: grayscale(100%) hue-rotate(70deg);
 }
+
+.testimonials p {
+    padding-bottom: 3%;
+}
+
+.products {
+    padding: 5% 10%;
+}
+
+.products h3 {
+    font-size: 35px;
+}
+
+.products p {
+    width: 50%;
+    color: grey;
+}
+
+.products .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.products .row {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.products .card {
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.products .card p {
+    width: 100%;
+}
+
+.products .card a {
+    color: #f4a261;
+    text-decoration: none;
+}
+
+.products .card h3 {
+    font-size: 20px;
+}
