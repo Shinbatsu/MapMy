@@ -202,3 +202,60 @@
 .products .card h3 {
     font-size: 20px;
 }
+.solutions {
+    width: 100%;
+    padding: 5% 10%;
+    background-color: #f4a261;
+    color: #fff;
+}
+
+.solutions h3 {
+    text-align: right;
+    font-size: 35px;;
+}
+
+.solutions .solutions-container {
+    display: flex;
+}
+
+.solutions .left {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.solutions .left .card span {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #f4a261;
+    padding: 5px 10px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+}
+
+.solutions .left .card h5 {
+    font-size: 25px;
+}
+
+.solutions .left .card {
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.solutions .left .card button {
+    color: #f4a261;
+    background-color: #fff;
+    border: none;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.solutions .right {
+    flex: 4;
+    text-align: right;
+}
