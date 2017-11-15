@@ -288,3 +288,99 @@
     border-radius: 8px;
     font-weight: bolder;
 }
+.newsletter {
+    background-color: #f4a261;
+    color: #fff;
+    display: flex;
+    gap: 10%;
+    padding: 2% 10%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.newsletter .logo {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newsletter .logo img {
+    height: auto;
+    width: 70%;
+}
+
+.newsletter .contact {
+    flex: 1;
+}
+
+.newsletter .contact span {
+    color: #f4a261;
+}
+
+.newsletter .signup {
+    flex: 1;
+}
+
+.newsletter .signup input {
+    border: 0;
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.newsletter .signup button {
+    color: #f4a261;
+    background-color: #fff;
+    border: 0;
+    width: 60px;
+    padding-right: 5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.newsletter .signup .input {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        gap: 55px;
+    }
+
+    .testimonials .rolling-cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .testimonials img {
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        width: 30%;
+    }
+
+    .solutions .solutions-container {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .newsletter .contact {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .products p {
+        width: 100%;
+    }
+
+    .products .row {
+        flex-direction: column;
+    }
+}
